@@ -3,7 +3,9 @@ body{
 }
 h1{
   font-family: Game of Thrones;
-  color: red;
+  color: #a15a5f;
+  font-size: 54px;
+  opacity: 1.0;
 }
 ul{
   list-style: none;

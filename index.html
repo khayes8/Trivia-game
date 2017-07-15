@@ -4,11 +4,12 @@
 <title>Game of Thrones Trivia</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
 <body>
 <!--Header-->
+<div id="container">
   <header>
     <h1>Game of Thrones Trivia</h1>
   </header>
@@ -17,8 +18,8 @@
   <div class="round1">
     <h2 class="question1">"What are the official house words of House Lannister?"</h2>
       <ul>
-        <button class ="wronganswer1.1"> A Lannister always pays his debts. </button>
-        <button class ="rightanswer1.1"> Hear me roar </button>
+        <button class ="wrong"> A Lannister always pays his debts. </button>
+        <button class ="right"> Hear me roar </button>
       </ul>
   </div>
 
@@ -26,8 +27,8 @@
   <div class="round2">
     <h2 class="question2">What is the meaning of "Valar morghulis"?</h2>
       <ul>
-        <button class ="wronganswer2.2"> All men must die. </button>
-        <button class ="rightanswer2.2"> Every man must die. </button>
+        <button class ="wrong"> All men must die. </button>
+        <button class ="right"> Every man must die. </button>
       </ul>
   </div>
 
@@ -35,8 +36,8 @@
 <div class="round3">
     <h2 class="question3">Tyrion once told Cersei she has two redeeming qualities: Her love of her children, and her…</h2>
       <ul>
-        <button class ="wronganswer3.3"> Wit</button>
-        <button class ="rightanswer3.3"> Cheekbones </button>
+        <button class ="wrong"> Wit</button>
+        <button class ="right"> Cheekbones </button>
       </ul>
   </div>
 
@@ -46,6 +47,8 @@
       <div class="win">Steps closer to the throne:</div>
       <div class="loss">Steps closer to a gruesome death:</div>
   </div>
+
+</container>
 <!--SCRIPT TAG-->
 <script type="text/javascript " src="assets/javascript/app.js "></script>
 </body>

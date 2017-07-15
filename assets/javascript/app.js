@@ -32,15 +32,15 @@ var hasBeenClicked = false;
 
 $(document).ready(function() {
 
-$("wronganswer1.1").on('click', loss);
+$(".wrong").on('click', loss);
  //   hasBeenClicked = true;
-//$("rightanswer1.1").on('click', Q1changescore);
+$("rightanswer1.1").on('click', loss);
 
 });
 
 function loss(){
   //if ("wronganswer1.1" + hasBeenClicked){
-    console.log("You are wrong");
+    alert("You are wrong");
   }
 
 

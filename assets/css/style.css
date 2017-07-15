@@ -1,0 +1,10 @@
+body{
+  background-image: url('../images/backgroundimage.jpg');
+}
+h1{
+  font-family: Game of Thrones;
+  color: red;
+}
+ul{
+  list-style: none;
+}

@@ -8,3 +8,8 @@ h1{
 ul{
   list-style: none;
 }
+
+#container{
+background-color: #440C0A;
+opacity: 0.5;
+}

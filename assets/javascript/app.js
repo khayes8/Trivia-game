@@ -29,25 +29,80 @@ if game time out or
 
 var wins = 0;
 var losses = 0;
+var wrongAnswers = [];
+var rightAnswers = [];
 
 $(document).ready(function() {
 
-});
+
+
 $(".wrong").click(function(){
     losses++;
     $(".loss").html(losses);
+    wrongAnswers.push(losses);
+    console.log(wrongAnswers);
   })
 ;
 
 $(".right").click(function(){
   wins++;
   $(".win").html(wins);
+  rightAnswers.push(wins);
+  console.log(rightAnswers);  
 })
 ;
 
-$(window).load(function(){ 
-setTimeout(function(){ alert("Hello"); }, 3000);
+$("#finished").click(function(){
+alert("done!");
 })
+;
+
+
+//see all numbers added to array
+
+$(window).load(function(){ 
+//setTimeout(function(){ alert("Hello"); }, 3000);
+})
+
+
+
+setTimeout(function(){
+window.location.href='Finalscore.html'});
+
+/*functions for specific buttons, I know theres an easier way to do this, 
+I just haven't figured it out yet*/
+
+$(".wrong1").click(function(){
+$('.wrong1').prop('disabled', true);
+  })
+;
+
+$(".wrong2").click(function(){
+$('.wrong2').prop('disabled', true);
+  })
+;
+
+
+$(".wrong3").click(function(){
+$('.wrong3').prop('disabled', true);
+  })
+;
+
+
+$(".right1").click(function(){
+$('.right1').prop('disabled', true);
+  })
+;
+
+$(".right2").click(function(){
+$('.right2').prop('disabled', true);
+  })
+;
+
+$(".right3").click(function(){
+$('.right3').prop('disabled', true);
+  })
+;
 /*function stopgame(){
   alert("done!");
 }
@@ -56,3 +111,4 @@ setTimeout(function(){ alert("Hello"); }, 3000);
 }*/
 
 
+});

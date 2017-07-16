@@ -29,7 +29,7 @@ $(".right").click(function(){
 
 
 $(window).load(function(){ 
- // window.setTimeout(GameOver, 30000);
+ window.setTimeout(GameOver, 30000);
 })
 /*On window load, the timer is automatically set to
 enact the GameOver function at 30 seconds*/

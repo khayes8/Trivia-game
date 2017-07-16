@@ -33,13 +33,12 @@ var hasBeenClicked = false;
 $(document).ready(function() {
 
 $(".wrong").on('click', loss);
- //   hasBeenClicked = true;
-$("rightanswer1.1").on('click', loss);
+$(".right").on('click', loss);
 
 });
 
 function loss(){
-  //if ("wronganswer1.1" + hasBeenClicked){
+  //if ("wrong" + hasBeenClicked){
     alert("You are wrong");
   }
 

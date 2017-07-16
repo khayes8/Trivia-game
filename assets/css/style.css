@@ -2,7 +2,7 @@ body{
   background-image: url('../images/backgroundimage.jpg');
 }
 h1{
-  font-family: Game of Thrones;
+  font-family: 'Game of Thrones', sans-serif;
   color: #a15a5f;
   font-size: 54px;
   opacity: 1.0;

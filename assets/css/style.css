@@ -2,51 +2,67 @@ body{
   background-image: url('../images/backgroundimage.jpg');
 }
 
+
 #container{
-background-color: #440C0A;
-opacity: 0.8;
-width: 744px;
-margin-left: 221px;
-margin-top: 50px;
-padding: 10px 40px 40px 40px;
+  background-color: #440C0A;
+  opacity: 0.8;
+  width: 744px;
+  margin-left: 221px;
+  margin-top: 50px;
+  padding: 10px 40px 40px 40px;
 }
 
+
 .container1{
-background-color: #440C0A;
-opacity: 0.8;
-width: 744px;
-height:300px;
-margin-left: 221px;
-margin-top: 50px;
-padding: 10px 40px 40px 40px;
+  background-color: #440C0A;
+  opacity: 0.8;
+  width: 744px;
+  height:300px;
+  margin-left: 221px;
+  margin-top: 50px;
+  padding: 10px 40px 40px 40px;
 }
+
 
 h1{
   font-family: Game of Thrones, sans-serif, Garamond;
   /*color: #a15a5f;*/
+  font-weight: 100;
   color: #F3F3F1;
   font-size: 46px;
   opacity: 1.0;
 }
 
+
 h2{
+  font-family: Gill Sans;
   color:white;
+  text-align: center;
+  font-weight: 200;
+  font-size:30px;
+  line-height: 10px;
+  border: none;
+  background-color: #3C100F;
+  /*margin-left: 307px;*/
 }
 
+
 p{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: Garamond, serif;
   font-weight: light;
   color: #ffffff;
   font-size:15px;
   text-align: center;
 }
 
+
 .starttimer{
-font-family: 'Cormorant Garamond', serif;
-font-weight: 200;
-font-size:80px;
-line-height: 10px;
+  font-family: Garamond, serif;
+  font-weight: 200;
+  font-size:80px;
+  line-height: 10px;
 }
+
 
 a{
   text-decoration: none;
@@ -54,21 +70,26 @@ a{
   margin-left: 274px;
 }
 
+
 @font-face {
  font-family: Game of Thrones, sans-serif, Garamond;
  src: url(../fonts/game_of_thrones.ttf) format("truetype");
 }
 
+
 ul{
   list-style: none;
+  padding-left: 0px;
 }
 
+
 .question{
-font-family: 'Cormorant Garamond', serif;
-font-weight: light;
-color: #ffffff;
-font-size:19px;
+  font-family: Gill Sans;
+  font-weight: 100;
+  color: #ffffff;
+  font-size:19px;
 }
+
 
 img{
   width:615px;
@@ -76,32 +97,60 @@ img{
   border-radius: 25px;
 }
 
-.wrong{
-font-family: 'Cormorant Garamond', serif;
 
+.wrong{
+  font-family: Gill Sans;
+  text-decoration: none;
+  background-color: #3C100F;
+  color: white;
+  border: none;
+  font-size: 13px; 
 }
+
 
 .right{
- font-family: 'Cormorant Garamond', serif; 
+ font-family: Gill Sans;
+ text-decoration: none;
+ background-color: #3C100F;
+ color: white;
+ border: none;
+ font-size: 13px;
 }
 
-.score{
-font-family: 'Cormorant Garamond', serif;
-font-weight: light;
-color: white;
-font-size:19px;
+button:disabled,
+button[disabled]{
+  color: #3C100F;
 }
+.score{
+  font-family: Garamond, serif;
+  font-weight: light;
+  color: white;
+  font-size:30px;
+}
+
 
 .win{
-font-family: 'Cormorant Garamond', serif;
-font-weight: light;
-color: white;
-font-size:19px;
+  font-family: Garamond, serif;
+  font-weight: light;
+  color: white;
+  font-size:19px;
 }
 
+
 .loss{
-font-family: 'Cormorant Garamond', serif;
-font-weight: light;
-color: white;
-font-size:19px;
+  font-family: Garamond, serif;
+  font-weight: light;
+  color: white;
+  font-size:19px;
+}
+
+#finished{
+  color:white;
+  text-align: center;
+  font-weight: 200;
+  font-size:30px;
+  line-height: 10px;
+  border: none;
+  background-color: #3C100F;
+  margin-left: 307px;
 }

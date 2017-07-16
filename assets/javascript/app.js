@@ -52,17 +52,31 @@ $(".right").click(function(){
 })
 ;
 
-$("#finished").click(function(){
-alert("done!");
-})
-;
 
 
 //see all numbers added to array
 
 $(window).load(function(){ 
-//setTimeout(function(){ alert("Hello"); }, 3000);
+  //setTimeout(function(){ alert("Hello"); }, 1000);
+  window.setTimeout(GameOver, 30000);
 })
+
+//window.setTimeout(GameOver, 3000);
+
+function GameOver(){
+$('.right').prop('disabled', true);
+$('.wrong').prop('disabled', true);
+}
+
+$("#finished").click(function(){
+$('.wrong').prop('disabled', true);
+$('.right').prop('disabled', true);
+  })
+;
+/*On page load
+set Game Over function at 30 seconds
+sets both right and wrong to disabled
+ */
 
 
 /*functions for specific buttons, I know theres an easier way to do this, 

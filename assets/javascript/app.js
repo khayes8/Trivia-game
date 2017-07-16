@@ -17,23 +17,33 @@ those divs to a function through an event listener(on click event)
 
 //This section is the code for my first question
 
-var rightAnswer;
-var wrongAnswer;
+//var rightAnswer;
+//var wrongAnswer;
 var wins = 0;
 var losses = 0;
-var hasBeenClicked = false;
+//var hasBeenClicked = false;
 
 //This section is the code for my first question
 
 $(document).ready(function() {
 
-$(".wrong").on('click', loss);
-$(".right").on('click', loss);
+//$(".wrong").on('click', decrementscore);
+//$(".right").on('click', incrementscore);
 
 });
 
-function loss(){
-    alert("You are wrong");
-  }
+$(".wrong").click(function(){
+    losses++;
+    $(".loss").html(losses);
+  })
+;
 
+$(".right").click(function(){
+  wins++;
+  $(".win").html(wins);
+})
+;
 
+function changescore (){
+
+}

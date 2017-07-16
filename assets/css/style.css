@@ -2,16 +2,64 @@ body{
   background-image: url('../images/backgroundimage.jpg');
 }
 h1{
-  font-family: 'Game of Thrones', sans-serif;
-  color: #a15a5f;
-  font-size: 54px;
-  opacity: 1.0;
+  font-family: Game of Thrones, sans-serif, Garamond;
+  /*color: #a15a5f;*/
+  color: #F3F3F1;
+  font-size: 46px;
+  opacity: 1.0;}
+
+@font-face {
+ font-family: Game of Thrones, sans-serif, Garamond;
+ src: url(../fonts/game_of_thrones.ttf) format("truetype");
 }
+
 ul{
   list-style: none;
 }
 
 #container{
 background-color: #440C0A;
-opacity: 0.5;
+opacity: 0.8;
+width: 744px;
+margin-left: 221px;
+margin-top: 50px;
+padding: 10px 40px 40px 40px;
+}
+}
+
+.question{
+font-family: 'Cormorant Garamond', serif;
+font-weight: light;
+color: #ffffff;
+font-size:19px;
+}
+
+.wrong{
+font-family: 'Cormorant Garamond', serif;
+
+}
+
+.right{
+ font-family: 'Cormorant Garamond', serif; 
+}
+
+.score{
+font-family: 'Cormorant Garamond', serif;
+font-weight: light;
+color: white;
+font-size:19px;
+}
+
+.win{
+font-family: 'Cormorant Garamond', serif;
+font-weight: light;
+color: white;
+font-size:19px;
+}
+
+.loss{
+font-family: 'Cormorant Garamond', serif;
+font-weight: light;
+color: white;
+font-size:19px;
 }

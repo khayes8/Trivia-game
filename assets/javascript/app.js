@@ -14,11 +14,6 @@ set event listeners for choices connecting to li divs in html, connect
 those divs to a function through an event listener(on click event)
 */
 
-/*var rightAnswer;
-var wrongAnswer;
-var wins = 0;
-var losses = 0;
-var hasBeenClicked = false;*/
 
 //This section is the code for my first question
 
@@ -38,7 +33,6 @@ $(".right").on('click', loss);
 });
 
 function loss(){
-  //if ("wrong" + hasBeenClicked){
     alert("You are wrong");
   }
 

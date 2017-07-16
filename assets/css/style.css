@@ -156,7 +156,8 @@ button[disabled]{
   font-weight: 200;
   font-size:30px;
   line-height: 10px;
-  border: none;
+  border: .25px solid;
   background-color: #3C100F;
   margin-left: 307px;
+  padding: 14px 5px 14px 5px;
 }

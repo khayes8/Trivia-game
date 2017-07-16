@@ -70,33 +70,39 @@ I just haven't figured it out yet*/
 
 $(".wrong1").click(function(){
 $('.wrong1').prop('disabled', true);
+$('.right1').prop('disabled', true);
   })
 ;
 
 $(".wrong2").click(function(){
 $('.wrong2').prop('disabled', true);
+$('.right2').prop('disabled', true);
   })
 ;
 
 
 $(".wrong3").click(function(){
 $('.wrong3').prop('disabled', true);
+$('.right3').prop('disabled', true);
   })
 ;
 
 
 $(".right1").click(function(){
 $('.right1').prop('disabled', true);
+$('.wrong1').prop('disabled', true);
   })
 ;
 
 $(".right2").click(function(){
 $('.right2').prop('disabled', true);
+$('.wrong2').prop('disabled', true);
   })
 ;
 
 $(".right3").click(function(){
 $('.right3').prop('disabled', true);
+$('.wrong3').prop('disabled', true);
   })
 ;
 /*function stopgame(){

@@ -6,7 +6,16 @@ h1{
   /*color: #a15a5f;*/
   color: #F3F3F1;
   font-size: 46px;
-  opacity: 1.0;}
+  opacity: 1.0;
+}
+
+#time{
+  color:white;
+}
+
+h2{
+  color:white;
+}
 
 @font-face {
  font-family: Game of Thrones, sans-serif, Garamond;

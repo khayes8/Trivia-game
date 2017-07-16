@@ -56,16 +56,41 @@ $(".right").click(function(){
 
 //see all numbers added to array
 
-$(window).load(function(){ 
-  //setTimeout(function(){ alert("Hello"); }, 1000);
-  window.setTimeout(GameOver, 30000);
-})
 
-//window.setTimeout(GameOver, 3000);
+
+
+
+//This code sets the timer function
+/*function startTimer(duration, display) {
+    var timer = duration, seconds;
+    setInterval(function () {
+        seconds = parseInt(timer % 60, 10);
+
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.text(seconds);
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+
+    }, 1000);
+}*/
+
+/*jQuery(function ($) {
+    var oneminute = 60 * 5,
+        display = $('#time');
+    startTimer(oneminute, display);
+});*/
+//This code sets the
+$(window).load(function(){ 
+  window.setTimeout(GameOver, 61000);
+})
 
 function GameOver(){
 $('.right').prop('disabled', true);
 $('.wrong').prop('disabled', true);
+alert("game over");
 }
 
 $("#finished").click(function(){

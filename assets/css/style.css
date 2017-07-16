@@ -106,7 +106,7 @@ img{
   text-decoration: none;
   background-color: #3C100F;
   color: white;
-  border: none;
+  border: .25px solid;
   font-size: 13px; 
 }
 
@@ -116,13 +116,14 @@ img{
  text-decoration: none;
  background-color: #3C100F;
  color: white;
- border: none;
+ border: .25px solid;
  font-size: 13px;
 }
 
 button:disabled,
 button[disabled]{
   color: #3C100F;
+  border: .25px solid white;
 }
 .score{
   font-family: Garamond, serif;
@@ -133,18 +134,20 @@ button[disabled]{
 
 
 .win{
-  font-family: Garamond, serif;
+  font-family: Gill Sans;
   font-weight: light;
   color: white;
   font-size:19px;
+  margin-left: 367px;
 }
 
 
 .loss{
-  font-family: Garamond, serif;
+  font-family: Gill Sans;
   font-weight: light;
   color: white;
   font-size:19px;
+  margin-left: 367px;
 }
 
 #finished{

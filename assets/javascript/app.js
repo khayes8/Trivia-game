@@ -12,25 +12,24 @@ and add point to lose score
 
 set event listeners for choices connecting to li divs in html, connect 
 those divs to a function through an event listener(on click event)
+
+There is a previous button and a next button to toggle from one page
+to the next. 
+when user clicks next button, previous question dissapears
+
 */
 
 
 //This section is the code for my first question
 
-//var rightAnswer;
-//var wrongAnswer;
+
+var questions = {}
 var wins = 0;
 var losses = 0;
-//var hasBeenClicked = false;
 
-//This section is the code for my first question
 
 $(document).ready(function() {
 
-//$(".wrong").on('click', decrementscore);
-//$(".right").on('click', incrementscore);
-
-});
 
 $(".wrong").click(function(){
     losses++;
@@ -44,6 +43,17 @@ $(".right").click(function(){
 })
 ;
 
+function nextquestion(){
+  var question1 = document.getElementByClassName('round1');
+  if (question1.style.display === 'none') {
+        question1.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
 function changescore (){
 
 }
+
+});

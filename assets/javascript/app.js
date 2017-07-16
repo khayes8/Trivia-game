@@ -65,10 +65,6 @@ $(window).load(function(){
 })
 
 
-
-setTimeout(function(){
-window.location.href='Finalscore.html'});
-
 /*functions for specific buttons, I know theres an easier way to do this, 
 I just haven't figured it out yet*/
 

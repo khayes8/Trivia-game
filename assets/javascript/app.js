@@ -35,7 +35,7 @@ var rightAnswers = [];
 $(document).ready(function() {
 
 
-
+//This is the code that generates the win and loss score when user clicks a button
 $(".wrong").click(function(){
     losses++;
     $(".loss").html(losses);
@@ -51,7 +51,6 @@ $(".right").click(function(){
   console.log(rightAnswers);  
 })
 ;
-
 
 
 //see all numbers added to array
@@ -84,14 +83,16 @@ $(".right").click(function(){
 });*/
 //This code sets the
 $(window).load(function(){ 
-  window.setTimeout(GameOver, 61000);
+  //window.setTimeout(GameOver, 5000);
 })
 
 function GameOver(){
 $('.right').prop('disabled', true);
 $('.wrong').prop('disabled', true);
-alert("game over");
 }
+
+
+
 
 $("#finished").click(function(){
 $('.wrong').prop('disabled', true);

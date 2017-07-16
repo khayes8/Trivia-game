@@ -61,7 +61,11 @@ font-weight: light;
 color: #ffffff;
 font-size:19px;
 }
-
+img{
+  width:615px;
+  height:315px;
+  border-radius: 25px;
+}
 .wrong{
 font-family: 'Cormorant Garamond', serif;
 
